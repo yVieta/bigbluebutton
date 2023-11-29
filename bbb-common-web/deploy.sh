@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #Publish new bbb-common-web .jar
 sbt clean 
