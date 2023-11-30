@@ -18,3 +18,11 @@ The latest version is BigBlueButton 2.7.  You can install BigBlueButton 2.6 on U
 For full technical documentation of BigBlueButton -- including architecture, features, API, and GreenLight (the default front-end) -- see [https://docs.bigbluebutton.org/](https://docs.bigbluebutton.org/).
 
 BigBlueButton and the BigBlueButton Logo are trademarks of [BigBlueButton Inc](https://bigbluebutton.org).
+
+Nixified BigBlueButton (WIP)
+======================
+  * The nix files are for a development shell environment which shall include all tools you need to build on BigBlueButton.
+    * Try it out via "nix develop" 
+    * If you do not have the nix package manager yet, you can try it out: https://nixos.org/download 
+  * The future goal of this flake is to become a flake build where it can be installed on a system with the nixpkg manager
+
